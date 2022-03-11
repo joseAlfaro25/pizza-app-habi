@@ -1,10 +1,15 @@
-import './App.css';
-import MainRoutes from './config/routers';
+import { Provider } from "react-redux";
+import "./App.css";
+import MainRoutes from "./config/routers";
+import generateStore from "./config/store/store";
 
 function App() {
+  const store = generateStore();
   return (
     <>
-    <MainRoutes/>
+      <Provider store={store}>
+        <MainRoutes />
+      </Provider>
     </>
   );
 }
