@@ -3,12 +3,12 @@ import { lazy } from "react";
 const Routes=() =>{
     const router= [
       {
-        path: "/register",
-        component: lazy(() => import("../../module/dashboard/view")),
+        path: "/Dashboard",
+        component: lazy(() => import("../../module/dashboard/view/Dashboard")),
       },
       {
         path: "/",
-        component: lazy(() => import("../../module/home/view/Home")),
+        component: lazy(() => import("../../module/register/view/Home")),
       }
     ];
 
