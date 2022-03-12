@@ -1,0 +1,9 @@
+.container-custom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:6px;
+  }
+  .row {
+    width: 50%;
+  }

@@ -1,4 +1,4 @@
-export const ingredients = [
+export const Ingredients = [
   { name: "Tomate", price: 3000 },
   { name: "Pepinillos", price: 3000 },
   { name: "Pepino", price: 3000 },

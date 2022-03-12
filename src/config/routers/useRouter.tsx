@@ -8,7 +8,7 @@ const Routes=() =>{
       },
       {
         path: "/",
-        component: lazy(() => import("../../module/register/view/Home")),
+        component: lazy(() => import("../../module/register/view")),
       }
     ];
 

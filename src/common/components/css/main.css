@@ -2,3 +2,6 @@
     width: 80%;
     margin:auto
 }
+.two {
+    grid-column: 2 / 4;
+}
