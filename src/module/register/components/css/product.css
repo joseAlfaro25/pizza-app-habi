@@ -1,14 +1,8 @@
-
 .customers {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 80%;
   margin: auto;
-}
-@media (max-width: 765px) {
-    .customers {
-        width: 100%;
-      }
 }
 
 .customers td,
@@ -16,7 +10,6 @@
   border: 1px solid #ddd;
   padding: 6px;
   text-align: center;
-
 }
 
 .customers tr:nth-child(even) {
@@ -31,7 +24,28 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #D93636;
+  background-color: #d93636;
   color: white;
-  text-align:center
+  text-align: center;
+}
+
+@media (max-width: 765px) {
+  .customers {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .customers td,
+  .customers th {
+    border: 1px solid #ddd;
+    padding: 3px;
+    text-align: center;
+  }
+  .customers th {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: left;
+    background-color: #d93636;
+    color: white;
+    text-align: center;
+  }
 }

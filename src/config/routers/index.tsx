@@ -9,7 +9,7 @@ const LoginRouter = () => {
     <>
     <Suspense fallback={<div>Loading...</div>}>
       <Router>
-        <Nav></Nav>
+        <Nav/>
         <Switch>
           {router.map((e) => (
             <PublicRouter path={e.path} component={e.component} />
