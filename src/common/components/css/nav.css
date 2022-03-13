@@ -1,11 +1,16 @@
 
 nav{
-    background-color: #D93636
+    background-color: #D93636;
+    height:40px;
+    margin-bottom: 12px;
 }
 nav a {
   text-decoration: none;
   color: inherit;
   font-size: 14px;
+}
+nav ul{
+  margin: 0;
 }
 nav li {
   display: inline-block;

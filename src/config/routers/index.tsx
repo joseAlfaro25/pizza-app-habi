@@ -1,9 +1,9 @@
 import { Suspense } from "react";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch} from "react-router-dom";
 import Nav from "../../common/components/Nav";
 import PublicRouter from "./MainRoutes";
 import  useRouter from "./useRouter";
-const LoginRouter = () => {
+const RouterList = () => {
   const {router}=useRouter()
   return (
     <>
@@ -21,4 +21,4 @@ const LoginRouter = () => {
   );
 };
 
-export default LoginRouter;
+export default RouterList;

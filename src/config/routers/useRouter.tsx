@@ -7,9 +7,14 @@ const Routes=() =>{
         component: lazy(() => import("../../module/dashboard/view/Dashboard")),
       },
       {
-        path: "/",
+        path: "/Register",
         component: lazy(() => import("../../module/register/view")),
+      },
+      {
+        path: "/",
+        component: lazy(() => import("../../module/home/view")),
       }
+
     ];
 
     return {

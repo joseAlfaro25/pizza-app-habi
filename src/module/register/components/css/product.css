@@ -24,7 +24,14 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #d93636;
+  background-color: radial-gradient(
+    circle at 50% -20.71%,
+    #5c3f64 0,
+    #4a2f5e 25%,
+    #321f59 50%,
+    #0a1254 75%,
+    #000550 100%
+  );;
   color: white;
   text-align: center;
 }
@@ -44,7 +51,14 @@
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: left;
-    background-color: #d93636;
+    background-color: radial-gradient(
+      circle at 50% -20.71%,
+      #5c3f64 0,
+      #4a2f5e 25%,
+      #321f59 50%,
+      #0a1254 75%,
+      #000550 100%
+    );;
     color: white;
     text-align: center;
   }

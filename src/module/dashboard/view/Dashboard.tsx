@@ -1,8 +1,10 @@
-import React from 'react'
+import HistoricalDetall from '../components/HistoricalDetall'
 
 const index = () => {
   return (
-    <div>index 2</div>
+    <div>
+      <HistoricalDetall/>
+    </div>
   )
 }
 

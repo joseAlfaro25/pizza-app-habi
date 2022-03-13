@@ -1,0 +1,9 @@
+.container-especial {
+  display: flex;
+  overflow-x: scroll;
+}
+
+
+.div-especial{
+  display: flex;
+}
