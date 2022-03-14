@@ -34,7 +34,7 @@ https://habi-1fddd.web.app/
 
 ## Caracteristicas
 
-* Manejo de esta globales
+* Manejo de estados globales
 * Patron de Composición
 * Responsive design
 * Clean code
