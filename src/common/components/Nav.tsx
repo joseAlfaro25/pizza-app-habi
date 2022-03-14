@@ -9,6 +9,9 @@ const Nav = () => {
     <>
       {(Active === false && (
         <nav>
+          <li>
+            <b>Fast pizza</b>
+          </li>
           <ul>
             <li>
               <Link to={"/Register"}><b>Registrar</b></Link>

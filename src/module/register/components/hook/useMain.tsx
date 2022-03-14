@@ -46,6 +46,17 @@ const useMain = () => {
     }
   };
 
+  const clearState = () => {
+    setOrder({
+      ...order,
+      name: "",
+      phone: 0,
+      namePizza: "",
+      date: "",
+      ingredients: []
+    })
+  }
+
   const handleSubmit = () => {
     if (orders.orders.length > 0) {
       dispatchReducer(saveProduct(orders));
@@ -59,6 +70,7 @@ const useMain = () => {
     setOrder,
     handleSubmit,
     submitInfo: isValidData,
+    clearState
   };
 };
 

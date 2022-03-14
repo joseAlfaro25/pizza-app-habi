@@ -31,10 +31,9 @@
   .form input[type="number"],
   .form input[type="date"],
   .form input[type="email"]{
-    width: 84%;
+    width: 87%;
     padding: 9px 17px;
-    border:1px solid #f6f6f6;
-    border-radius:3px;
+    border:1px solid #c6c5c5;
     background-color:#f6f6f6;
     margin:8px 0;
     display:inline-block;

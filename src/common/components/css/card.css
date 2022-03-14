@@ -20,3 +20,22 @@ img {
 .container-especial-card {
   padding: 2px 16px;
 }
+.title-card{
+  justify-content: center;
+  text-align: center
+}
+.text-total{
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.title-card-modal{
+  text-align: center
+}
+.text-total{
+  margin-bottom: 10px;
+}
+.div-info div{
+  margin-top:3px
+}

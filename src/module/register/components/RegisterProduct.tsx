@@ -10,11 +10,11 @@ const RegisterProduct = ({ handleChange }: IProps) => {
     <>
       <table className={"customers"}>
         <tr>
-          <th>Ingrediente</th>
+          <th>Ingredientes</th>
           <th>Precio</th>
           <th>Elegir</th>
         </tr>
-        {Ingredients?.map((e: Iproduct, i: number) => (
+        {!!Ingredients&&Ingredients?.map((e: Iproduct, i: number) => (
           <tr>
             <td>{e.name}</td>
             <td>{e.price}</td>

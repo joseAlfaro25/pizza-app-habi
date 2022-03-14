@@ -31,7 +31,6 @@ const useProduct = ({ setOrder, order }: Props) => {
       }
     }
   };
-  console.log("listSelectd", order);
 
   return { handleChange };
 };

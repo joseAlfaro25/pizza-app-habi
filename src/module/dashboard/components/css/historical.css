@@ -16,3 +16,31 @@
 @media (min-width: 900px) {
   .cards { grid-template-columns: repeat(3, 1fr); }
 }
+
+.search{
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.search input{
+  width: 80%;
+  margin: auto;
+  padding: 9px 17px;
+  border:1px solid #c6c5c5;
+  background-color:#f6f6f6;
+  margin:8px 0;
+}
+.div-void{
+  justify-content: center;
+  text-align: center
+}
+.image-void{
+  height: 250px;
+  width: 300px;
+}
+.div-void h3{
+  text-align: center
+}
+

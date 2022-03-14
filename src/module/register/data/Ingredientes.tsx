@@ -13,6 +13,7 @@ export const Ingredients = [
   { name: "Orégano", price: 3000},
   { name: "Pepperoni", price: 4500 },
   { name: "Pollo", price: 5000 },
-  { name: "Sal de ajo", price: 3000 }
+  { name: "Sal de ajo", price: 3000 },
+  { name: "Pulpo", price: 3000 }
 ];
 

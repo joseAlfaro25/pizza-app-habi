@@ -6,7 +6,7 @@ import image from '../../../common/image/add.png';
 
 interface Props{
     submitInfo:()=>void;
-    handleSubmit:()=>void
+    handleSubmit:()=>void;
 }
 
 const ConfirmationModal = ({submitInfo, handleSubmit}:Props) => {
