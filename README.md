@@ -18,7 +18,7 @@ npm install
 
 ## Hosting
 ```
-https://habi-1fddd.web.app/
+https://brave-gates-29b6fe.netlify.app/
 ```
 
 
