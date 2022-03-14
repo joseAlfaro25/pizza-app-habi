@@ -29,7 +29,7 @@ https://brave-gates-29b6fe.netlify.app/
 * Redux
 * TypeScript
 * React Modal
-* sweetalert2 -- Liberia para Alert Amigables 
+* sweetalert2 -- Liberia para alert amigables 
 
 
 ## Caracteristicas
