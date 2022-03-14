@@ -10,7 +10,7 @@ const Nav = () => {
       {(Active === false && (
         <nav>
           <li>
-            <b>Fast pizza</b>
+            <Link to={"/"}><b>Fast pizza</b></Link>
           </li>
           <ul>
             <li>
