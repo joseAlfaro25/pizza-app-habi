@@ -29,7 +29,7 @@ https://habi-1fddd.web.app/
 * Redux
 * TypeScript
 * React Modal
-* sweetalert2 -- Liberia para alert amigables 
+* sweetalert2 -- Libreria para alert amigables 
 
 
 ## Caracteristicas
