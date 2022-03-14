@@ -1,16 +1,23 @@
 
+import CardModal from '../../module/register/components/CardModal';
+import { IOrder } from '../../module/register/types/product';
 import './css/card.css'
+import image from '../image/pizza.png';
 
-const Card = () => {
+interface Props {
+  data: IOrder
+}
+
+const Card = ({data}:Props) => {
   return (
     <>
-      <div className={"card"}>
-        <img src={"https://www.saborusa.com/wp-content/uploads/2019/12/origen-de-la-pizza-1.jpg.webp"} alt="Avatar"/>
+      <div className={"card-box"}>
+        <img src={image} alt="Avatar"/>
         <div className={"container-especial-card"}>
-          <h4>
-            <b>Jane Doe</b>
-          </h4>
-          <p>Interior Designer</p>
+          <h5>
+            <b>{data.namePizza} {data.date} <CardModal data={data}/></b> 
+          </h5>
+          <p>{data.name} </p>
         </div>
       </div>
     </>

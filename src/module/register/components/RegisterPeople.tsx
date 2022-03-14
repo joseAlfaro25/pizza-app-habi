@@ -1,5 +1,6 @@
 import "../components/css/people.css";
-import { IOrder } from "./Main";
+import { IOrder } from "../types/product";
+
 
 interface Props{
   onChangePeople:(value: string, name: string) => void;

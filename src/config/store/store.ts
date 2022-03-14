@@ -1,11 +1,13 @@
 import {createStore, combineReducers, compose, applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
+import productReducer from './product';
+import navReducer from './navbar';
 
 
 
 
 const rootReducer = combineReducers({
-   
+   product:productReducer
 })
 declare global {
     interface Window {

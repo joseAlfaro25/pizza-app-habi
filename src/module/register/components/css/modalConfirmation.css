@@ -1,0 +1,29 @@
+.div-button{
+    display: flex;
+}
+
+.div-button button{
+    font-size: 1em;
+    margin: 1em;
+    background-color: #0f202b0f;
+    padding: 0.25em 1em;
+    border: 2px solid rgb(41, 34, 34);
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
+
+ .modal-container{   
+    float: right;
+    margin-right: 6%;
+    margin-top: 3%;
+}
+
+.button-register{
+    font-size: 1em;
+    margin: 1em;
+    background-color: rgba(236, 236, 236, 0.979);
+    padding: 0.25em 1em;
+    border: 0.5px solid rgba(41, 34, 34, 0.17);
+    margin: auto;
+    color: rgb(0, 0, 0);
+}

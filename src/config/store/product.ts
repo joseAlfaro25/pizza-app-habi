@@ -1,4 +1,6 @@
 import { Dispatch } from "redux";
+import { IOrdersValue } from "../../module/register/types/product";
+
 
 const DATAINIT={
   product:[]
@@ -16,10 +18,15 @@ export default function productReducer(state = DATAINIT, action:any) {
 }
 
 // Actions
-export const saveProduct = (value:[])=> async (dispatch:Dispatch<any>) => {
-    dispatch({
-        type: SAVE_PRODUCT,
-        payload: value
-    });
+export const saveProduct = (value:IOrdersValue)=>(dispatch:Dispatch) => {
+    console.log('VAle', value)
+    try {     
+        dispatch({
+            type: SAVE_PRODUCT,
+            payload: value
+        });
+    } catch (error) {
+        
+    }
   };
   

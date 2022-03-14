@@ -1,5 +1,6 @@
 import React from "react";
-import { IOrder } from "../Main";
+import { IOrder } from "../../types/product";
+
 
 interface Props {
   setOrder: React.Dispatch<React.SetStateAction<IOrder>>;

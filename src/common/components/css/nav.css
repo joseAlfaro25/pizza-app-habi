@@ -1,6 +1,6 @@
 
 nav{
-    background-color: #D93636;
+    background-color: #00BFA6;
     height:40px;
     margin-bottom: 12px;
 }
@@ -11,18 +11,19 @@ nav a {
 }
 nav ul{
   margin: 0;
+  float: right;
 }
 nav li {
   display: inline-block;
   width: auto;
   padding: 5px 10px;
-  background-color: #000;
-  border: 1px solid #000;
+  background-color: #00BFA6;
+  border: 1px solid #00BFA6;;
   text-align: center;
   color: #fff;
 }
 nav li:hover {
-  background-color: #fff;
+  background-color:#00bfa66b;
   color: #000;
 }
 

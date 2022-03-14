@@ -1,9 +1,18 @@
-.container-especial {
-  display: flex;
-  overflow-x: scroll;
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
 }
 
+/* 2*/
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
 
-.div-especial{
-  display: flex;
+/* 3 */
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
 }
