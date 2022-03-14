@@ -1,11 +1,23 @@
 import "../components/css/home.css";
 import image from "../../../common/image/moto.png"
 import { useHistory } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { activeNav } from "../../../config/store/navbar";
+import { useEffect } from "react";
 const Home = () => {
   const history =useHistory()
   const router =()=>{
       history.push('/Register')
   }
+  
+  const dispatchReducer = useDispatch();
+  
+  useEffect(() => {
+    dispatchReducer(activeNav(true));
+    return () => {
+      dispatchReducer(activeNav(false));
+    };
+  }, [dispatchReducer]);
   return (
   
     <div className={'home-principal'}>

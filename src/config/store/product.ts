@@ -19,7 +19,6 @@ export default function productReducer(state = DATAINIT, action:any) {
 
 // Actions
 export const saveProduct = (value:IOrdersValue)=>(dispatch:Dispatch) => {
-    console.log('VAle', value)
     try {     
         dispatch({
             type: SAVE_PRODUCT,

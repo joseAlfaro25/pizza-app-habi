@@ -1,6 +1,7 @@
 import React from 'react'
 import Modal from '../../../common/components/Modal';
 import './css/modalConfirmation.css'
+import image from '../../../common/image/add.png';
 
 
 interface Props{
@@ -19,9 +20,10 @@ const ConfirmationModal = ({submitInfo, handleSubmit}:Props) => {
     }
   return (
     <div className={'modal-container'}>
-        <button onClick={()=>{openModal();submitInfo()}} className={'button-register'}>Registrar</button>
+        <button onClick={()=>{openModal();submitInfo()}} className={'button-register'}><b>Registrar</b></button>
         <Modal modalIsOpen={modalIsOpen} closeModal={closeModal}>
            <div>
+               <img src={image} alt={'comfimacion'} height={150}/>
                <h3>Desea guardas la información</h3>
                <div className={'div-button'}>
                <button onClick={()=>{handleSubmit();closeModal()}}>Aceptar</button>
