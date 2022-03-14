@@ -10,7 +10,7 @@ Descargar repositorio o realiza un clone.
 https://github.com/joseAlfaro25/pizza-app-habi.git
 ```
 
-Instalación.
+Instalación de dependecias.
 
 ```
 npm install 
@@ -29,9 +29,10 @@ https://habi-1fddd.web.app/
 * Redux
 * TypeScript
 * React Modal
+* sweetalert2 -- Liberia para Alert Amigables 
 
 
-----------
+## Caracteristicas
 
 * Manejo de esta globales
 * Patron de Composición

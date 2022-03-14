@@ -8,7 +8,6 @@ interface Props {
 }
 
 const Card = ({ data }: Props) => {
-  console.log("DATA", data);
   return (
     <>
       <div className={"card-box"}>

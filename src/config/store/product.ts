@@ -1,5 +1,6 @@
 import { Dispatch } from "redux";
 import { IOrdersValue } from "../../module/register/types/product";
+import { IProductActionTypes } from "./types/product";
 
 
 const DATAINIT={
@@ -8,7 +9,7 @@ const DATAINIT={
 
 const SAVE_PRODUCT='SAVE_PRODUCT'
 //Reducer
-export default function productReducer(state = DATAINIT, action:any) {
+export default function productReducer(state = DATAINIT, action:IProductActionTypes) {
     switch(action.type){
         case SAVE_PRODUCT:
             return { ...state, product:action.payload };

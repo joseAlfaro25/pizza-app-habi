@@ -15,7 +15,7 @@ const RegisterProduct = ({ handleChange }: IProps) => {
           <th>Elegir</th>
         </tr>
         {!!Ingredients&&Ingredients?.map((e: Iproduct, i: number) => (
-          <tr>
+          <tr key={i}>
             <td>{e.name}</td>
             <td>{e.price}</td>
             <td>

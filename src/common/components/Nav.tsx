@@ -4,7 +4,6 @@ import "./css/nav.css";
 
 const Nav = () => {
   const Active = useSelector((store: any) => store.active.active);
-  console.log("ACTIVE",Active)
   return (
     <>
       {(Active === false && (

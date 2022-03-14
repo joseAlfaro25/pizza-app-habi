@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
+import Swal from "sweetalert2";
 import { saveProduct } from "../../../../config/store/product";
 import { IOrder, IOrdersValue } from "../../types/product";
 
@@ -41,7 +42,13 @@ const useMain = () => {
       setOrders({ ...orders, orders: listIngredient });
       return true;
     } else {
-      console.log("FALTAN CAMPOS");
+      Swal.fire({
+        position: 'center',
+        icon: 'warning',
+        title: 'Faltan campos obligatorios',
+        showConfirmButton: false,
+        timer: 1500
+      })
       return false;
     }
   };
@@ -60,8 +67,21 @@ const useMain = () => {
   const handleSubmit = () => {
     if (orders.orders.length > 0) {
       dispatchReducer(saveProduct(orders));
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Se ha guardado correctamente el registro',
+        showConfirmButton: false,
+        timer: 1500
+      })
     } else {
-      console.log("FALTAN CAMPOS OBLIGATORIOS");
+      Swal.fire({
+        position: 'center',
+        icon: 'warning',
+        title: 'Faltan campos obligatorios',
+        showConfirmButton: false,
+        timer: 1500
+      })
     }
   };
 

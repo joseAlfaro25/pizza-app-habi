@@ -1,4 +1,5 @@
 import { Dispatch } from "redux";
+import { INavActionTypes } from "./types/navbar";
 
 const DATAINIT = {
   active: false,
@@ -6,7 +7,7 @@ const DATAINIT = {
 
 const ACTIVE = "ACTIVE";
 //Reducer
-export default function navReducer(state = DATAINIT, action: any) {
+export default function navReducer(state = DATAINIT, action: INavActionTypes) {
   switch (action.type) {
     case ACTIVE:
       return { ...state, active: action.payload };
@@ -16,7 +17,7 @@ export default function navReducer(state = DATAINIT, action: any) {
 }
 
 // Actions
-export const activeNav = (value: any) => async (dispatch: Dispatch) => {
+export const activeNav = (value: boolean) => async (dispatch: Dispatch) => {
   try {
     dispatch({
       type: ACTIVE,

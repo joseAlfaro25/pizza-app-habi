@@ -21,7 +21,6 @@ const HistoricalDetall = () => {
       });
     setRows(filteredRows);
   };
-  console.log("TEST", rows);
   return (
     <div>
       <div className={"search"}>
